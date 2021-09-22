@@ -1,0 +1,157 @@
+body {
+    background-color: #e3e3e3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:8rem;
+    
+    background-color: #e2c3b2;
+    
+}
+.header header {
+    padding-left: 2rem;
+    
+    
+}
+.header h1 {
+    font-size: 50px;
+    text-shadow: 3px 3px #c60021;
+    margin-top: 0.2rem;
+    margin-bottom: 0.8rem;
+}
+
+.header a {
+    margin-right: 10rem;
+    color: #c60021;
+    font-size: 30px;
+}
+
+section{
+    margin-top: 12rem;
+}
+
+ 
+
+
+
+ul.sports-teams {
+    list-style-type: square;
+    font-family: fantasy;
+    padding: 5px;
+    margin-left: 5rem;
+}
+
+ul.sports-teams a {
+    color: #c60021;
+}
+
+.attraction {
+    border-style: solid;
+    margin-bottom: 5rem;
+    padding-bottom: 2rem;
+    border-width: 0.5rem;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    border-image: linear-gradient(45deg, red, black) 1
+}
+
+#arch{
+    margin-top:5rem ;
+}
+
+.contact-form {
+    margin-left: 5rem;
+    max-width: 50%;
+    padding: 20px 12px 10px 20px;
+    font-size: 13px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact-form li {
+    padding: 0;
+    display: block;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+.contact-form input, textarea, select {
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.contact-form label {
+    margin: 0 0 3px 0;
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+}
+
+.contact-form .required {
+    color: #c60021;
+}
+
+.contact-form input[type=submit] {
+    background-color: #c60021;
+    color: white;
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(59, 56, 56);
+    color:white;
+    margin-left: -5rem;
+    margin-right:-5rem;
+    margin-bottom: -5rem;
+    padding-bottom: 2rem;
+    
+}
+
+footer a{
+    color:white;
+}
+
+.hour-table {
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-height:10rem;
+    min-width: 25rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: left;
+
+    /* for the border */
+    display: grid;
+	place-items: center;
+	border: 8px solid;
+	
+
+    /* citation:https://freefrontend.com/css-border-examples/ */
+    border-image: linear-gradient(45deg, red,yellow) 1;
+}
+
+
+.footer address{
+    
+    display:flex;
+    justify-content: space-evenly;
+}
+
+#address-phone,#address-email{
+    display:inline-block;
+    font-size:large;
+    padding-bottom: 2rem;
+}
+
+#address-table{
+    display:inline-block;
+    font-size: large;
+    padding-bottom: 1rem;
+}
+

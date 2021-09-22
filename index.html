@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>St. Louis City Guide</title>
+    <meta name="description" content="An introduction to the city of St. Louis">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header section -->
+    <div class='header' id='header'>
+        <header>
+            <h1>Explore St.Louis </h1>
+            <nav>
+                <a href='#about'>About St.Louis</a>
+                <a href='#attractions'>Tourist Attractions</a>
+                <a href='#contact'>Contact Us</a>
+            </nav>
+
+        </header>
+
+    </div>
+
+    <hr>
+
+    <!-- main section  -->
+    <section>
+        <!-- 
+    information taken from https://en.wikipedia.org/wiki/St._Louis -->
+
+        <div class='about' id='about'>
+            <h2>St. Louis</h2>
+            <img src='./pics/st.louis.png' alt='pic of st.louis'>
+            <p>
+                St. Louis (/seɪnt ˈluːɪs, sənt ˈluːɪs/) is the <strong>second-largest</strong> city in Missouri, United
+                States.
+                It sits near the confluence of the Mississippi and the Missouri Rivers, on the western bank of the
+                latter.
+                As of 2020, the city proper had a population of around <strong>301,500 </strong>while the bi-state
+                metropolitan area,
+                which extends into Illinois, had an estimated population of over <strong>2.8 million</strong>, making it
+                the
+                <strong>largest</strong>
+                metropolitan area in Missouri, the <strong>second-largest </strong>in Illinois, the
+                <strong>seventh-largest
+                </strong>in the Great Lakes
+                Megalopolis, and the <strong>20th-largest </strong> in the United States.
+            </p>
+
+            <p>
+                St. Louis has three professional sports teams:
+            <ul class='sports-teams' id='sports-teams'>
+                <li> <a target='_blank' href='https://en.wikipedia.org/wiki/St._Louis_Cardinals'>the St. Louis
+                        Cardinals</a>
+                </li>
+                <li><a target='_blank' href='https://en.wikipedia.org/wiki/St._Louis_Blues'>the St.
+                        Louis Blues</a> </li>
+                <li>
+                    <a target='_blank' href='https://en.wikipedia.org/wiki/St._Louis_BattleHawks'>the St. Louis
+                        BattleHawks</a>
+                </li>
+            </ul>
+            <p>
+
+                In 2019,the city was awarded a Major League Soccer franchise, St. Louis City SC, which is expected to
+                begin
+                play
+                upon the completion of a 22,500-seat stadium in the city's Downtown West neighborhood in 2023. Among the
+                city's notable sights is the 630-foot (192 m) Gateway Arch in the downtown area. St. Louis is also home
+                to
+                the St. Louis Zoo and the Missouri Botanical Garden, which has the second-largest herbarium in North
+                America.
+
+            </p>
+
+
+
+
+
+
+        </div>
+
+        <hr>
+
+
+        <div class='attractions' id='attractions'>
+            <h2>Tourist Attractions</h2>
+
+            <p>Here are some of the must-visit places in St. Louis:</p>
+            <div class='attraction' id='arch'>
+                <h3>The Gateway Arch</h3>
+                <img src='./pics/arch.jpg' alt='The Gateway Arch'>
+
+            </div>
+
+
+            <div class='attraction' id='six-flags'>
+                <h3>Six Flags St.Louis</h3>
+
+                <img src='./pics/sixflags.png' alt='Six Flags STL'>
+            </div>
+
+            <div class='attraction' id='delmar-loop'>
+                <h3>Delmar Loop</h3>
+
+                <img src='./pics/loop.png' alt='Delmar Loop'>
+            </div>
+
+            <div class='attraction' id='washu'>
+                <h3>Washington University in St.Louis</h3>
+                <img src='./pics/washu.jpg' alt='WashU'>
+            </div>
+
+
+
+
+
+
+        </div>
+        <hr>
+
+        <div class='contact' id='contact'>
+            <h2>Contact Us</h2>
+
+            <p>If you would like to learn more about these places and organize your trips, please leave us a message. We
+                will get back to you at the earliest!</p>
+
+            <form>
+
+
+                <!-- citation:https://www.sanwebe.com/2014/08/css-html-forms-designs -->
+
+                <ul class="contact-form" id='contact-form'>
+                    <li><label for='firstname'>Full Name <span class="required">*</span></label><input type="text"
+                            name="firstname" id="firstname" placeholder="First" /> <input type="text" name="lastname"
+                            id="lastname" placeholder="Last" /></li>
+                    <li>
+                        <label for="email">Email <span class="required">*</span></label>
+                        <input type="email" name="email" id="email" />
+                    </li>
+                    <li>
+
+
+                        <label for='drop-down'>How did you hear about us?</label>
+                        <select name='drop-down' id='drop-down'>
+                            <option value='search-engine'>Search engine (Google, Yahoo, etc.)</option>
+                            <option value='recommendation'>Recommended by friends or colleague</option>
+                            <option value='social-media'>Social media</option>
+                            <option value='blog'>Blog or publication</option>
+                            <option value='other'>Other</option>
+                        </select>
+
+                    </li>
+                    <li>
+                        <label for="comment-field">Your Message <span class="required">*</span></label>
+                        <textarea name="comments" id="comment-field" rows='4' cols='50'
+                            placeholder='Please enter your message here'></textarea>
+                    </li>
+                    <li>
+                        <input type="submit" value="Submit" />
+                    </li>
+                </ul>
+
+
+
+
+            </form>
+
+        </div>
+
+
+
+    </section>
+    
+
+    <!-- citation:https://developer.mozilla.org/en-US/docs/Web/HTML/Element/address -->
+    <footer class='footer' id='footer'>
+
+
+        <address>
+            <div id='tel-and-email'>
+                <strong id='address-phone'> Tel: </strong> <a href='tel:+13142037070'>(314)203-7070</a> <br>
+                <strong id='address-email'>Email:</strong> <a href="mailto:li.f@wustl.edu">li.f@wustl.edu</a> <br>
+                <strong id='address-table'>Hours:</strong>
+                <table class='hour-table' id='hour-table'>
+                    <tr>
+                        <th>Sunday</th>
+                        <td>9am -3pm</td>
+                    </tr>
+                    <tr>
+                        <th>Monday-Friday</th>
+                        <td>9am - 12pm<br>3pm - 7pm</td>
+                    </tr>
+                    <tr>
+                        <th>Saturday</th>
+                        <td>Closed</td>
+                    </tr>
+
+                </table>
+            </div>
+
+
+
+            <div id='address'>
+                <strong style='display: inline-block; font-size: large;'>Address:</strong>
+                <p>6105 Delmar Blvd</p>
+                <p>St. Louis, MO 63112</p>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3115.707559292595!2d-90.29872564893422!3d38.6556040686649!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df4aaa5e01ae3f%3A0x5738ae48bea1c7fe!2sEverly%20on%20the%20Loop!5e0!3m2!1sen!2sus!4v1631636583883!5m2!1sen!2sus"
+                    width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+
+
+
+
+
+        </address>
+
+
+
+
+
+
+
+    </footer>
+</body>
+
+
+
+
+</html>
